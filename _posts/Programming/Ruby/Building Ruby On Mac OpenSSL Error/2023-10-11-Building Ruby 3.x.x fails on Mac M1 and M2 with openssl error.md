@@ -30,7 +30,7 @@ ossl_ts.c:829:5: error: incomplete definition of type 'struct TS_verify_ctx'
 /opt/homebrew/Cellar/openssl@3/3.1.3/include/openssl/ts.h:407:16: note: forward declaration of 'struct TS_verify_ctx'
 typedef struct TS_verify_ctx TS_VERIFY_CTX;
                ^
-1 warning and 1 error generated.
+1 warning and 1 error generated. 
 make[2]: *** [ossl_ts.o] Error 1
 make[1]: *** [ext/openssl/all] Error 2
 make: *** [build-ext] Error 2
