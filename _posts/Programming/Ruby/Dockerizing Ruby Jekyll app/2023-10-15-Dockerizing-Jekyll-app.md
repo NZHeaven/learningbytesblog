@@ -73,6 +73,24 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
+Your final dockerfile should look like:
+
+```dockerfile
+# Muitistage Dockerfile to first build the static site, then using nginx serve the static site
+FROM ruby:3.1.3 as builder
+WORKDIR /usr/src/app
+COPY Gemfile jekyll-theme-chirpy.gemspec ./
+RUN bundle install
+COPY . .
+RUN JEKYLL_ENV=production bundle exec jekyll build
+
+#Copy _sites from build to Nginx Container to serve site
+FROM nginx:latest
+COPY --from=builder /usr/src/app/_site /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+```
+
 ## Build the Container
 Using the Dockerfile we created, we will now instruct Docker to generate our container. To do this, run the following Docker command from the same directory as your Dockerfile. 
 <br><br>**NOTE:** The '-t' option stands for Tag, and we use it to specify the desired name for the generated container. The standard naming convention is Username/Containername:tag. For example, for this blog, it is 'NZHeaven/Learningbytesblog:latest'.
