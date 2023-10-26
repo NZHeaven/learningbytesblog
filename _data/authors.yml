@@ -7,9 +7,14 @@
 # -------------------------------------
 
 cotes:
-  name: Cotes Chung
-  twitter: cotes2020
-  url: https://github.com/cotes2020/
+  name: Josh Bird
+  twitter:
+  url: https://www.linkedin.com/in/joshua-bird-660328141/
+
+# cotes:
+#   name: Cotes Chung
+#   twitter: cotes2020
+#   url: https://github.com/cotes2020/
 
 sille_bille:
   name: Dinesh Prasanth Moluguwan Krishnamoorthy

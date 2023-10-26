@@ -39,10 +39,12 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
+    - https://www.linkedin.com/in/joshua-bird-660328141/ # change to your linkedin homepage
     - https://github.com/nzheaven # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    
+
 
 google_site_verification: # fill in to your verification string
 
