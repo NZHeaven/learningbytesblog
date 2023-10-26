@@ -56,8 +56,8 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: {% raw %}${{ secrets.DOCKERHUB_USERNAME }}{% endraw %}
+          password: {% raw %}${{ secrets.DOCKERHUB_TOKEN }}{% endraw %}
 
       - name: Build and push
         uses: docker/build-push-action@v5
@@ -90,10 +90,10 @@ Back in the GitHub web portal, go to your repository's settings and select the *
 
 ```yaml
 - name: Login to Docker Hub
-        uses: docker/login-action@v3
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+  uses: docker/login-action@v3
+  with:
+    username: {% raw %}${{ secrets.DOCKERHUB_USERNAME }}{% endraw %}
+    password: {% raw %}${{ secrets.DOCKERHUB_TOKEN }}{% endraw %}
 ```
 
 we specified secrets.DOCKERHUB_USERNAME and secrets.DOCKERHUB_TOKEN. When adding your secrets, you must use the same names as what you used in your YAML file. So, in our case, you should now have the following in your action secrets:
