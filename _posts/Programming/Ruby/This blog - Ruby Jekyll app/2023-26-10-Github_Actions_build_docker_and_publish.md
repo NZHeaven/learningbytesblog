@@ -2,7 +2,7 @@
 title: "Github Actions - Auto build Jekyll docker container and push to Docker Hub"
 date: 2023-10-26 15:29:00 +1200
 categories: [Programming, Ruby]
-tags: [ruby, programming, docker, container, how-to, github, github actions,cicd]     # TAG names should always be lowercase
+tags: [ruby, programming, docker, container, how-to, github, github actions,ci/cd]     # TAG names should always be lowercase
 ---
 ## Introduction
 
