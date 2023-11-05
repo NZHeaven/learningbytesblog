@@ -96,10 +96,6 @@ I do know that this example is very basic, but I am surprised at how easy it is 
 
 All in all, I must say it's been an awesome first week, and I've soaked up a ton of knowledge. If there's one thing I'd strongly recommend, it's for anyone brand new and eager to dive into the world of neural networks and deep learning to give ["Practical Deep Learning for Coders"](https://course.fast.ai/) by the folks at fast.ai a read. I'm just starting chapters 2 and 3, and I'm totally hooked.
 
-My AI exploration has been an eye-opener, showing me that there's no need to fear this technology as it is today. We're a long way from having general AI; everything we've got so far falls into the "narrow AI" category, designed for specific tasks. We do need some ground rules, but let's not weigh down this burgeoning industry with too many restrictions that could stifle its incredible potential.
-
-The media really ought to stop with the whole "robot uprising end of the world" scare. Sure, there are serious issues to address, like bias and ensuring AI is used ethicaly. But im an  optimist, and I like to think of AI as a force for good. Time will be the ultimate judge of that, of course.
-
 Stay tuned for my next update on my AI learning journey.
 
 Happy learning,
