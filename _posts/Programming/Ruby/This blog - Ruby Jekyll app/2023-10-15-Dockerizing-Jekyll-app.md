@@ -2,7 +2,7 @@
 title: "Dockerizing a Jekyll site/app and deploying with Nginx"
 date: 2023-10-15 15:29:00 +1200
 categories: [Programming, Ruby]
-tags: [ruby, programming, docker, container, how-to]     # TAG names should always be lowercase
+tags: [ruby, programming, docker, container, how-to]
 ---
 ## Introduction
 

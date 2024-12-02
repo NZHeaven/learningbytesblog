@@ -2,7 +2,7 @@
 title: "Building ruby 3.x.x fails on Mac M1/M2 with openSSL error"
 date: 2023-10-11 8:25:00 +1200
 categories: [Programming, Ruby]
-tags: [ruby, programming, mac]     # TAG names should always be lowercase
+tags: [ruby, programming, mac]
 ---
 
 When attempting to build Ruby on a Mac M1/M2, you may encounter an openSSL error that is caused by a conflict with OpenSSH.
