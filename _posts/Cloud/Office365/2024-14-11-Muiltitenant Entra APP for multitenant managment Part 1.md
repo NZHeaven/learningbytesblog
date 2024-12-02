@@ -64,7 +64,7 @@ The scope value: https://graph.microsoft.com/.default tells microsoft to use the
 
 When you go to the URL you should see the below screen
 
-![alt text](/assets/images/2024/Conent_App.png)
+![alt text](/assets/images/2024/Consent_App.png)
 
 The final bit of information we need, is the tenant ID for each tenant. You can get this information from the [Entra Portal](https://entra.microsoft.com).
 
